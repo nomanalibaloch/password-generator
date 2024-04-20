@@ -8,6 +8,8 @@ function getRandom() {
 }
 
 function generate() {
+    pass_1.textContent = "";
+    pass_2.textContent = "";
     for(let i=0;i<15;i++){
     pass_1.textContent = pass_1.textContent + characters[getRandom()];
     }
